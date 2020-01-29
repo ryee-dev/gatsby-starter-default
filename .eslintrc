@@ -5,7 +5,7 @@
     "plugin:react/recommended"
   ],
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint"],
+  "plugins": ["@typescript-eslint/eslint-plugin"],
   "env": {
     "browser": false,
     "node": true,
@@ -26,6 +26,7 @@
     }
   ],
   "rules": {
+    "react/prop-types": 0,
     "radix": 0,
     "arrow-body-style": 0,
     "no-underscore-dangle": 0,
@@ -43,6 +44,8 @@
     "import/extensions": ["off"],
     "no-param-reassign": [2, { "props": false }],
     "@typescript-eslint/no-empty-interface": 0,
+    "no-nested-ternary": "warn",
+    "react/display-name": "warn",
     "object-curly-newline": [
       "error",
       {
@@ -53,7 +56,6 @@
       }
     ],
     "@typescript-eslint/ban-ts-ignore": "off",
-    "comma-dangle": "warn",
-    "react/prop-types": 0
+    "comma-dangle": "warn"
   }
 }
