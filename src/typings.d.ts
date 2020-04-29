@@ -1,15 +1,21 @@
 interface CSSModule {
-  [className: string]: string
+  [className: string]: string;
 }
 
 // type shims for CSS modules
 
 declare module '*.module.scss' {
-  const cssModule: CSSModule
+  const cssModule: CSSModule;
   export = cssModule
 }
 
 declare module '*.module.css' {
-  const cssModule: CSSModule
+  const cssModule: CSSModule;
   export = cssModule
 }
+
+declare module '*.png';
+
+// Library Typings
+
+declare module 'framer-motion';

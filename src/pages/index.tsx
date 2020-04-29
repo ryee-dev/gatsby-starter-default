@@ -1,19 +1,18 @@
-import * as React from 'react';
+import React from 'react';
+// import styled from 'styled-components';
+// import { Image, Box } from 'rebass';
 
-import Page from '../components/Page';
-import Container from '../components/Container';
-import IndexLayout from '../layouts';
+import Layout from '../components/Layout';
+import BgEffects from '../components/bgEffects';
+import HomePage from './Home';
 
-const IndexPage = () => (
-  <IndexLayout>
-    <Page>
-      <Container>
-        <h1>Hi people</h1>
-        <p>Welcome to your new Gatsby site.</p>
-        <p>Now go build something great.</p>
-      </Container>
-    </Page>
-  </IndexLayout>
-);
+const IndexPage = () => {
+  return (
+    <Layout>
+      <BgEffects />
+      <HomePage />
+    </Layout>
+  );
+};
 
 export default IndexPage;

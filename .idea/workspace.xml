@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b20c8518-bcf4-4f2e-85db-3344fb59c639" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/ryee.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/bgEffects/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Container.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LayoutMain.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LayoutRoot.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/typings.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/typings.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,12 +57,17 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettier.import.notification.dismissed" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/components/bgEffects" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunManager">
@@ -84,6 +102,14 @@
       <workItem from="1580281294781" duration="56000" />
       <workItem from="1580281471716" duration="794000" />
       <workItem from="1580282514491" duration="671000" />
+      <workItem from="1583991648014" duration="4225000" />
+      <workItem from="1584039440839" duration="710000" />
+      <workItem from="1584124857916" duration="1363000" />
+      <workItem from="1584134824020" duration="450000" />
+      <workItem from="1584421112689" duration="130000" />
+      <workItem from="1584421264124" duration="5685000" />
+      <workItem from="1588059137125" duration="1191000" />
+      <workItem from="1588066561013" duration="2906000" />
     </task>
     <servers />
   </component>
@@ -100,6 +126,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -109,10 +136,36 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1037" y="252" key="#Notifications/0.0.2560.1080/2560.0.1920.1080/-1440.162.1440.900@0.0.2560.1080" timestamp="1580281734345" />
-    <state x="839" y="174" key="SettingsEditor" timestamp="1580282785764">
+    <state x="470" y="275" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584421239849">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="470" y="275" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1080/-1680.0.1680.1050@0.0.2560.1080" timestamp="1584134578204" />
+    <state x="470" y="275" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1584421239849" />
+    <state x="347" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583995779291">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="347" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1583995779291" />
+    <state width="2516" height="234" key="GridCell.Tab.0.bottom" timestamp="1588148306140">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2516" height="234" key="GridCell.Tab.0.bottom/2560.234.1680.1050/0.0.2560.1080@0.0.2560.1080" timestamp="1588148306140" />
+    <state width="2516" height="234" key="GridCell.Tab.0.center" timestamp="1588148306139">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2516" height="234" key="GridCell.Tab.0.center/2560.234.1680.1050/0.0.2560.1080@0.0.2560.1080" timestamp="1588148306139" />
+    <state width="2516" height="234" key="GridCell.Tab.0.left" timestamp="1588148306137">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2516" height="234" key="GridCell.Tab.0.left/2560.234.1680.1050/0.0.2560.1080@0.0.2560.1080" timestamp="1588148306137" />
+    <state width="2516" height="234" key="GridCell.Tab.0.right" timestamp="1588148306139">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2516" height="234" key="GridCell.Tab.0.right/2560.234.1680.1050/0.0.2560.1080@0.0.2560.1080" timestamp="1588148306139" />
+    <state x="839" y="174" key="SettingsEditor" timestamp="1583994432993">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="839" y="174" key="SettingsEditor/0.0.2560.1080/2560.0.1920.1080/-1440.162.1440.900@0.0.2560.1080" timestamp="1580282785764" />
+    <state x="839" y="174" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1583994432993" />
     <state x="1043" y="391" key="cloudConfig.PluginsDialog" timestamp="1580281252398">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
