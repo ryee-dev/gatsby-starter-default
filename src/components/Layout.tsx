@@ -1,5 +1,7 @@
 import * as React from 'react';
 import { createGlobalStyle } from 'styled-components';
+import { ThemeProvider } from 'theme-ui';
+import theme from '../theme';
 
 const GlobalStyle = createGlobalStyle`
   html, body {
@@ -15,10 +17,10 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 const Layout: React.FC<{}> = ({ children }) => (
-  <>
+  <ThemeProvider theme={theme}>
     <GlobalStyle />
     {children}
-  </>
+  </ThemeProvider>
 );
 
 export default Layout;

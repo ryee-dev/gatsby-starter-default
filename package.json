@@ -41,6 +41,7 @@
     "@types/styled-components": "^5.0.1",
     "@types/stylelint": "^9.10.1",
     "@types/superagent": "^4.1.7",
+    "@types/theme-ui": "^0.3.1",
     "@types/yup": "^0.26.32",
     "babel-plugin-styled-components": "^1.10.6",
     "framer-motion": "^1.9.1",
@@ -48,6 +49,7 @@
     "gatsby-plugin-react-helmet": "^3.1.24",
     "gatsby-plugin-sharp": "^2.4.13",
     "gatsby-plugin-styled-components": "^3.1.21",
+    "gatsby-plugin-theme-ui": "^0.3.0",
     "gatsby-plugin-typescript": "^2.2.5",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-remark-copy-linked-files": "^2.1.40",
@@ -64,6 +66,7 @@
     "react-hot-loader": "^4.12.20",
     "rebass": "^4.0.7",
     "styled-components": "^5.0.1",
+    "theme-ui": "^0.3.1",
     "typescript": "^3.8.3"
   },
   "devDependencies": {

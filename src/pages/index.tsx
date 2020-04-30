@@ -1,6 +1,4 @@
 import React from 'react';
-// import styled from 'styled-components';
-// import { Image, Box } from 'rebass';
 
 import Layout from '../components/Layout';
 import BgEffects from '../components/bgEffects';
