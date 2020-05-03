@@ -43,6 +43,11 @@ export default {
       fontSize: [3, null, 4, null],
       textAlign: 'right',
     },
+    title: {
+      fontFamily: 'subheading',
+      fontWeight: 'body',
+      fontSize: [3, null, 5, 6],
+    },
   },
   buttons: {
     primary: {

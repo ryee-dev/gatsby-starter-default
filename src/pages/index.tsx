@@ -3,8 +3,9 @@ import styled from 'styled-components';
 import { Image } from 'theme-ui';
 
 import Layout from '../components/Layout';
-import BgEffects from '../components/bgEffects';
-import HomePage from './Home';
+import Home from './Home';
+import About from './About';
+import Work from './Work';
 import Menu from '../components/Menu';
 import { Hamburger } from '../assets';
 
@@ -24,13 +25,14 @@ const IndexPage = () => {
   return (
     <Layout>
       <HamburgerMenu src={Hamburger} alt="menu" m={[4]} sx={{
-        position: 'absolute', top: 0, left: 0, zIndex: 2, cursor: 'pointer',
+        position: 'fixed', top: 0, left: 0, zIndex: 2, cursor: 'pointer',
       }}
       onClick={() => setMenu(true)}
       />
 
-      <BgEffects />
-      <HomePage />
+      <Home />
+      <About />
+      <Work />
 
       {menu && <Menu setMenu={setMenu} />
       }

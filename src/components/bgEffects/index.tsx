@@ -13,7 +13,7 @@ const BgWrapper = styled(Box)`
   background-size: cover;
   box-sizing: border-box;
   overflow: hidden;
-  z-index: 0;
+  z-index: -1;
 `;
 
 const BgLayer = styled(Image)`

@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b20c8518-bcf4-4f2e-85db-3344fb59c639" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/hamburger.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/petals_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/About.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Work.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/branch.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/branch.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/paper-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/paper-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/bgEffects/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bgEffects/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/typings.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/typings.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +52,15 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src/pages/sections" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/components/bgEffects" />
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -109,7 +105,7 @@
       <workItem from="1588066561013" duration="3025000" />
       <workItem from="1588225683235" duration="16409000" />
       <workItem from="1588400012264" duration="810000" />
-      <workItem from="1588484528193" duration="3508000" />
+      <workItem from="1588484528193" duration="4825000" />
     </task>
     <servers />
   </component>
@@ -145,28 +141,28 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="347" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1583995779291" />
-    <state width="2516" height="234" key="GridCell.Tab.0.bottom" timestamp="1588407402733">
+    <state width="2516" height="234" key="GridCell.Tab.0.bottom" timestamp="1588488403095">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="2516" height="234" key="GridCell.Tab.0.bottom/2560.0.1680.1050/0.0.2560.1080/-1680.0.1680.1050@0.0.2560.1080" timestamp="1588243104453" />
+    <state width="2516" height="234" key="GridCell.Tab.0.bottom/2560.0.1680.1050/0.0.2560.1080/-1680.0.1680.1050@0.0.2560.1080" timestamp="1588488403095" />
     <state width="2516" height="234" key="GridCell.Tab.0.bottom/2560.234.1680.1050/0.0.2560.1080@0.0.2560.1080" timestamp="1588407402733" />
     <state width="2516" height="234" key="GridCell.Tab.0.bottom/2560.257.1680.1027/0.23.2560.1057@0.23.2560.1057" timestamp="1588399987654" />
-    <state width="2516" height="234" key="GridCell.Tab.0.center" timestamp="1588407402731">
+    <state width="2516" height="234" key="GridCell.Tab.0.center" timestamp="1588488403092">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="2516" height="234" key="GridCell.Tab.0.center/2560.0.1680.1050/0.0.2560.1080/-1680.0.1680.1050@0.0.2560.1080" timestamp="1588243104451" />
+    <state width="2516" height="234" key="GridCell.Tab.0.center/2560.0.1680.1050/0.0.2560.1080/-1680.0.1680.1050@0.0.2560.1080" timestamp="1588488403092" />
     <state width="2516" height="234" key="GridCell.Tab.0.center/2560.234.1680.1050/0.0.2560.1080@0.0.2560.1080" timestamp="1588407402731" />
     <state width="2516" height="234" key="GridCell.Tab.0.center/2560.257.1680.1027/0.23.2560.1057@0.23.2560.1057" timestamp="1588399987653" />
-    <state width="2516" height="234" key="GridCell.Tab.0.left" timestamp="1588407402730">
+    <state width="2516" height="234" key="GridCell.Tab.0.left" timestamp="1588488403090">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="2516" height="234" key="GridCell.Tab.0.left/2560.0.1680.1050/0.0.2560.1080/-1680.0.1680.1050@0.0.2560.1080" timestamp="1588243104450" />
+    <state width="2516" height="234" key="GridCell.Tab.0.left/2560.0.1680.1050/0.0.2560.1080/-1680.0.1680.1050@0.0.2560.1080" timestamp="1588488403090" />
     <state width="2516" height="234" key="GridCell.Tab.0.left/2560.234.1680.1050/0.0.2560.1080@0.0.2560.1080" timestamp="1588407402730" />
     <state width="2516" height="234" key="GridCell.Tab.0.left/2560.257.1680.1027/0.23.2560.1057@0.23.2560.1057" timestamp="1588399987653" />
-    <state width="2516" height="234" key="GridCell.Tab.0.right" timestamp="1588407402732">
+    <state width="2516" height="234" key="GridCell.Tab.0.right" timestamp="1588488403094">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="2516" height="234" key="GridCell.Tab.0.right/2560.0.1680.1050/0.0.2560.1080/-1680.0.1680.1050@0.0.2560.1080" timestamp="1588243104452" />
+    <state width="2516" height="234" key="GridCell.Tab.0.right/2560.0.1680.1050/0.0.2560.1080/-1680.0.1680.1050@0.0.2560.1080" timestamp="1588488403094" />
     <state width="2516" height="234" key="GridCell.Tab.0.right/2560.234.1680.1050/0.0.2560.1080@0.0.2560.1080" timestamp="1588407402732" />
     <state width="2516" height="234" key="GridCell.Tab.0.right/2560.257.1680.1027/0.23.2560.1057@0.23.2560.1057" timestamp="1588399987654" />
     <state x="839" y="174" key="SettingsEditor" timestamp="1583994432993">
