@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Box, Image } from 'theme-ui';
-import { Tree, Paper } from '../../assets';
+import { Branch, Paper, Petals1 } from '../../assets';
 
 
 const BgWrapper = styled(Box)`
@@ -18,21 +18,38 @@ const BgWrapper = styled(Box)`
 
 const BgLayer = styled(Image)`
   position: absolute;
+
+  &.branch {
+    width: 70%;
+    transform: rotate(3deg);
+  }
+  
+  &.petals {
+    width: auto;
+  }
+  
 `;
+
 
 const BgEffects = () => {
   return (
     <BgWrapper>
       <BgLayer
-        className="tree"
-        src={Tree}
-        alt="tree"
+        className="branch"
+        src={Branch}
+        alt="branch"
         sx={{
-          top: ['18vw', null, '10%', '5%'],
+          maxWidth: ['1000px'],
+          top: ['18vw', null, '10%', 0],
           right: [null, -2, null],
           left: ['-12vw', null, 'auto'],
           transform: ['rotate(-90deg)', null, 'rotate(0deg) !important'],
         }}
+      />
+      <BgLayer
+        className="petals"
+        src={Petals1}
+        sx={{ bottom: [0], right: [0] }}
       />
     </BgWrapper>
   );

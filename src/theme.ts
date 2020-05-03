@@ -33,14 +33,15 @@ export default {
     heading: {
       fontFamily: 'heading',
       fontWeight: 'lighter',
-      fontSize: [7, 10, 11, 12],
+      fontSize: [7, 10, 11, 13],
       px: [3, null, 4, null],
       textAlign: ['right', null, 'left'],
     },
     subheading: {
       fontFamily: 'subheading',
       fontWeight: 'lighter',
-      fontSize: [4, null, null, 5],
+      fontSize: [3, null, 4, null],
+      textAlign: 'right',
     },
   },
   buttons: {
