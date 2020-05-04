@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
-import { Image } from 'theme-ui';
+import { Box, Image } from 'theme-ui';
 
 import Layout from '../components/Layout';
 import Home from './Home';
@@ -24,17 +24,27 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <HamburgerMenu src={Hamburger} alt="menu" m={[4]} sx={{
-        position: 'fixed', top: 0, left: 0, zIndex: 2, cursor: 'pointer',
-      }}
-      onClick={() => setMenu(true)}
+      <HamburgerMenu
+        src={Hamburger}
+        alt="menu" m={[3, null, 4]} p={[2]}
+        sx={{
+          width: ['50px', '60px'],
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          zIndex: 2,
+          cursor: 'pointer',
+        }}
+        onClick={() => setMenu(true)}
       />
 
-      <Home />
-      <About />
-      <Work />
 
-      {menu && <Menu setMenu={setMenu} />
+      {menu ? <Menu setMenu={setMenu} />
+        : <Box>
+          <Home />
+          <About />
+          <Work />
+        </Box>
       }
     </Layout>
   );

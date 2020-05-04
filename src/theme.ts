@@ -1,5 +1,5 @@
 export default {
-  breakpoints: ['36em', '50em', '64em', '80em'],
+  breakpoints: ['36em', '50em', '64em', '80em', '96rem'],
   fontSizes: [
     12, 14, 16, 20, 24, 32, 48, 64, 72, 84, 96, 108, 124, 136, 148, 160,
   ],
@@ -33,15 +33,15 @@ export default {
     heading: {
       fontFamily: 'heading',
       fontWeight: 'lighter',
+      marginLeft: [null, null, -2, null],
       fontSize: [7, 10, 11, 13],
-      px: [3, null, 4, null],
-      textAlign: ['right', null, 'left'],
+      // textAlign: ['right', null, 'left'],
     },
     subheading: {
       fontFamily: 'subheading',
       fontWeight: 'lighter',
-      fontSize: [3, null, 4, null],
-      textAlign: 'right',
+      fontSize: ['12px', '14px', 2, '21px'],
+      // textAlign: 'right',
     },
     title: {
       fontFamily: 'subheading',

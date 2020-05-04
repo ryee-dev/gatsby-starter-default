@@ -10,7 +10,7 @@ const About = () => {
       backgroundColor: 'white',
       alignItems: 'center',
       justifyContent: 'center',
-      zIndex: 3,
+      zIndex: 1,
       boxSizing: 'border-box',
       overflow: 'hidden',
     }}>

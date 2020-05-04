@@ -1,31 +1,32 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Box, Image } from 'theme-ui';
-import { Branch, Paper, Petals1 } from '../../assets';
+import { Flex, Image } from 'theme-ui';
+import { Branch, Petals1 } from '../../assets';
 
 
-const BgWrapper = styled(Box)`
+const BgWrapper = styled(Flex)`
   position: absolute;
-  width: 100%;
-  height: 100%;
-  background-image: url(${Paper});
-  background-position: center;
-  background-size: cover;
+  top: 0;
+  right: 0;
   box-sizing: border-box;
   overflow: hidden;
   z-index: -1;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-direction: column;
 `;
 
 const BgLayer = styled(Image)`
-  position: absolute;
+  //position: absolute;
+  max-width: 1461px;
 
   &.branch {
     width: 70%;
-    transform: rotate(3deg);
   }
   
   &.petals {
-    width: auto;
+    //width: auto;
+    
   }
   
 `;
@@ -40,16 +41,16 @@ const BgEffects = () => {
         alt="branch"
         sx={{
           maxWidth: ['1000px'],
-          top: ['18vw', null, '10%', 0],
-          right: [null, -2, null],
-          left: ['-12vw', null, 'auto'],
-          transform: ['rotate(-90deg)', null, 'rotate(0deg) !important'],
+          marginTop: ['19%', 0],
+          transform: ['rotate(-90deg) scaleY(1)', 'rotate(3deg)'],
         }}
       />
       <BgLayer
         className="petals"
         src={Petals1}
-        sx={{ bottom: [0], right: [0] }}
+        mt={['38%', '20%', 2, 0]}
+        mr={['-30%', '-40%', -3, 0]}
+        sx={{ transform: ['rotate(-90deg)', 'rotate(-110deg)', 'rotate(-15deg)', 'rotate(0deg)'] }}
       />
     </BgWrapper>
   );
