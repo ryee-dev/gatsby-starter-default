@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { Box, Image } from 'theme-ui';
+// import { useViewportScroll, useTransform } from 'framer-motion';
 
 import Layout from '../components/Layout';
 import Home from './Home';
@@ -13,8 +14,12 @@ const HamburgerMenu = styled(Image)`
   cursor: pointer;
 `;
 
+// const pages = [Home, About, Work];
+
 const IndexPage = () => {
   const [menu, setMenu] = useState(false);
+  // const { scrollYProgress } = useViewportScroll();
+  // const opacity = useTransform(scrollYProgress, [0, 1], [0, 1]);
 
   useEffect(() => {
     if (menu) {
@@ -41,6 +46,7 @@ const IndexPage = () => {
 
       {menu ? <Menu setMenu={setMenu} />
         : <Box>
+
           <Home />
           <About />
           <Work />

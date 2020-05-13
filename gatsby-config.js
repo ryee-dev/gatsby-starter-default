@@ -6,9 +6,9 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-theme-ui',
-    {
-      resolve: 'gatsby-plugin-web-font-loader',
-      options: { typekit: { id: 'ubr3lbn' } },
-    },
+    // {
+    //   resolve: 'gatsby-plugin-web-font-loader',
+    //   options: { typekit: { id: 'ubr3lbn' } },
+    // },
   ],
 };

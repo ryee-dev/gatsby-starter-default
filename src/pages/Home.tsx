@@ -34,8 +34,11 @@ const NameContainer = styled(Flex)`
     align-items: center;
     justify-content: flex-start;
   }
-  
 `;
+
+// interface HomeProps {
+//   style?: any;
+// }
 
 const Home = () => {
   return (
