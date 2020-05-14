@@ -7,7 +7,7 @@ const About = () => {
       position: 'relative',
       width: '100%',
       height: '100vh',
-      backgroundColor: 'white',
+      backgroundColor: '#ffd3b6',
       alignItems: 'center',
       justifyContent: 'center',
       zIndex: 1,

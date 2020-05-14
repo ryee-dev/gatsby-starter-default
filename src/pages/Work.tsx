@@ -7,7 +7,7 @@ const Work = () => {
       position: 'relative',
       width: '100%',
       height: '100vh',
-      backgroundColor: 'white',
+      backgroundColor: '#a0ffe6',
       alignItems: 'center',
       justifyContent: 'center',
       zIndex: 1,

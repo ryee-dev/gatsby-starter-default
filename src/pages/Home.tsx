@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import { Flex, Text } from 'theme-ui';
+import { motion } from 'framer-motion';
 import { Paper } from '../assets';
+
 
 import BgEffects from '../components/bgEffects';
 
-const HomeContainer = styled(Flex)`
+const HomeContainer = styled(motion.div)`
   position: relative;
   z-index: 1;
   width: 100%;
@@ -36,13 +38,15 @@ const NameContainer = styled(Flex)`
   }
 `;
 
-// interface HomeProps {
-//   style?: any;
-// }
+interface HomeProps {
+  fadeOut?: number;
+}
 
-const Home = () => {
+const Home = (props: HomeProps) => {
+  const { fadeOut } = props;
+  console.log(fadeOut);
   return (
-    <HomeContainer>
+    <HomeContainer style={{ opacity: (fadeOut) }}>
       <BgEffects />
       <NameContainer ml={['16px', '20px', 4]}>
         <Text
