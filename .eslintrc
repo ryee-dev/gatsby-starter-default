@@ -33,7 +33,7 @@
     "class-methods-use-this": 0,
     "no-confusing-arrow": ["warn"],
     "no-return-assign": ["warn"],
-    "@typescript-eslint/camelcase": ["warn"],
+    "@typescript-eslint/camelcase": "off",
     "max-len": ["warn"],
     "no-unused-vars": "off",
     "semi": [2, "always"],

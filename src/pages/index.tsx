@@ -4,7 +4,7 @@ import { Box, Image } from 'theme-ui';
 // import { useViewportScroll } from 'framer-motion';
 
 import { useTransform, useViewportScroll } from 'framer-motion';
-import Layout from '../components/Layout';
+// import Layout from '../components/Layout';s
 // import Page from '../components/Page';
 import Home from './Home';
 import About from './About';
@@ -19,6 +19,7 @@ const HamburgerMenu = styled(Image)`
 const IndexPage = () => {
   const [menu, setMenu] = useState(false);
   const [fadeOut, setFadeOut] = useState(1);
+  const [menuOpacity, setMenuOpacity] = useState(0);
   const { scrollY } = useViewportScroll();
   const y1 = useTransform(scrollY, [0, 966], [0, 100]);
   // const y2 = useTransform(scrollY, [966, 1934], [0, 100]);
@@ -27,14 +28,18 @@ const IndexPage = () => {
   useEffect(() => {
     scrollY.onChange(() => {
       setFadeOut(1 - (y1.current.toFixed(2) * 0.01));
-
-      // console.log(fadeOut);
     });
+
+    if (menu === true) {
+      setMenuOpacity(0);
+    } else if (menu === false) {
+      setMenuOpacity(1);
+    }
   }, [scrollY]);
 
 
   return (
-    <Layout>
+    <>
       <HamburgerMenu
         src={Hamburger}
         alt="menu" m={[3, null, 4]} p={[2]}
@@ -50,14 +55,14 @@ const IndexPage = () => {
       />
 
 
-      {menu ? <Menu setMenu={setMenu} />
+      {menu ? <Menu setMenu={setMenu} menuOpacity={menuOpacity} />
         : <Box backgroundColor="white">
           <Home fadeOut={fadeOut} />
           <About />
           <Work />
         </Box>
       }
-    </Layout>
+    </>
   );
 };
 

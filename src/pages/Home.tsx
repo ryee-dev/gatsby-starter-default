@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import { Flex, Text } from 'theme-ui';
 import { motion } from 'framer-motion';
@@ -21,7 +21,6 @@ const HomeContainer = styled(motion.div)`
   background-image: url(${Paper});
   background-position: center;
   background-size: cover;
-
   .b {
     font-weight: 400;
   }

@@ -21,9 +21,12 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     flex-direction: column;
     background-color: white;
+    
+    
   }
 `;
 
+// eslint-disable-next-line @typescript-eslint/ban-types
 const Layout: React.FC<{}> = ({ children }) => (
   <ThemeProvider theme={theme}>
     <GlobalStyle />
