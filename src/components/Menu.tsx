@@ -3,6 +3,7 @@ import { Flex, Image } from 'theme-ui';
 import { Close } from '../assets';
 
 interface MenuProps {
+  // eslint-disable-next-line @typescript-eslint/ban-types
   setMenu: Function;
 }
 
